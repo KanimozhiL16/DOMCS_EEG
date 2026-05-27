@@ -51,7 +51,7 @@ def main():
 
     for entry in per_seed:
         seed       = entry["seed"]
-        stored_eer = entry.get("eer")
+        stored_eer = entry.get("eer_pct", entry.get("eer"))
         exp        = EXPECTED.get(seed)
 
         if exp is None or stored_eer is None:
