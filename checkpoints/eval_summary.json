@@ -1,0 +1,47 @@
+{
+  "mean_eer": 2.413769,
+  "std_eer": 0.090585,
+  "mean_auc": 0.996164,
+  "bootstrap_ci": [
+    2.3353921672714093,
+    2.4795938122568275
+  ],
+  "best_seed": 3,
+  "best_eer": 2.282308,
+  "protocol": "B2T \u2014 enroll R01+R02 ONLY, verify R03-R14 ONLY",
+  "dataset": "PHYSIONET EEGMMIDB 109 subjects",
+  "hardware": "NVIDIA A100 (Brev.dev)",
+  "run_date": "2026-05-26",
+  "per_seed": [
+    {
+      "seed": 1,
+      "eer_pct": 2.497767,
+      "auc": 0.9962,
+      "n_genuine": 160123
+    },
+    {
+      "seed": 2,
+      "eer_pct": 2.458735,
+      "auc": 0.995467,
+      "n_genuine": 160123
+    },
+    {
+      "seed": 3,
+      "eer_pct": 2.282308,
+      "auc": 0.996196,
+      "n_genuine": 160123
+    },
+    {
+      "seed": 4,
+      "eer_pct": 2.358187,
+      "auc": 0.996688,
+      "n_genuine": 160123
+    },
+    {
+      "seed": 5,
+      "eer_pct": 2.47185,
+      "auc": 0.996267,
+      "n_genuine": 160123
+    }
+  ]
+}
