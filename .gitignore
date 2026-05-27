@@ -1,0 +1,65 @@
+# Data files — too large for GitHub; see data/README.md for access
+data/*.npz
+data/*.edf
+data/*.bdf
+data/*.fif
+data/*.mat
+*.npz
+*.h5
+*.hdf5
+
+# Model checkpoints — too large; use RESULTS.md for verified numbers
+*/seed_*/
+*/model_best.pt
+*/model_last.pt
+*.pt
+*.pth
+*.ckpt
+
+# Results output directories (run locally)
+BED_DOMCS_LOCKED_RESULTS/
+BED_BASELINE_RESULTS/
+BED_VIZ/
+DANN_PHYSIONET_RESULTS/
+DOMCS_EEG_FINAL_LOCKED_TIFS_VERSION/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Log files (local runs only — not needed for reproducibility)
+*.log
+nohup.out
+
+# LaTeX (paper source not included in code repo)
+*.tex
+*.pdf
+*.aux
+*.bbl
+*.blg
+
+# Temporary files
+*.tmp
+*.bak

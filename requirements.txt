@@ -1,0 +1,26 @@
+# DOMCS-EEG — Python dependencies
+# Verified on: Python 3.10, NVIDIA A100, CUDA 12.1
+# Install: pip install -r requirements.txt
+
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine learning utilities
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# EEG preprocessing (for raw .edf → .npz pipeline)
+mne>=1.3.0
+
+# Dimensionality reduction (optional — visualization scripts fall back to PCA if unavailable)
+umap-learn>=0.5.3
+
+# Utilities
+tqdm>=4.65.0
